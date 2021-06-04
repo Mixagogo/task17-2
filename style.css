@@ -1,1 +1,22 @@
-.
+.menu{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	width: 100px;	
+}
+.menu a{
+	text-decoration:none;
+	color:blue;
+	display:block;
+	padding:5px 10px;	
+}
+.menu>li>a{
+	border: 1px solid black;
+	border-left: 8px solid lime;
+}
+.menu>li:hover>a{
+	background: lime;
+}
+.menu .active{
+	background: green
+}.
